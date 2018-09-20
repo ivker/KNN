@@ -21,3 +21,12 @@ class StringCombiner:
                 res += s1[idx::]
                 return res
         return res
+
+    @staticmethod
+    def extract2(s: str) -> list:
+        """
+        将字符串交叉提取为两个字符串
+        :param s:
+        :return:
+        """
+        return [s[0::2], s[1::2]]
